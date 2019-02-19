@@ -1,5 +1,7 @@
 #!/bin/sh
 
+pkill gui.py
+
 # start from remote ssh
 export DISPLAY=:0
 # stop screen save or blank screen
